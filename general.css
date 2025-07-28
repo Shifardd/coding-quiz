@@ -1,0 +1,20 @@
+:root {
+  --darkishColor: #1B3C53;
+  --darkColor: #456882;
+  --brownColor: #D2C1B6;
+  --lightColor: #F9F3EF;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--brownColor);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
